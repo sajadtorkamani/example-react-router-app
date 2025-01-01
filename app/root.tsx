@@ -43,6 +43,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  console.log('hi')
   return <Outlet />;
 }
 
